@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b9623f6c0c684fae9224b24adebc7699" Name="Diagram1">
+        <EntityTypeShape EntityType="CapstoneDB.CapstoneAddress" Width="1.5" PointX="3.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneDB.CapstoneCustomer" Width="1.5" PointX="5.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneDB.CapstoneEmployee" Width="1.5" PointX="3.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneDB.CapstoneGuard" Width="1.5" PointX="0.875" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneDB.CapstonePatrol" Width="1.5" PointX="5.5" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneDB.CapstonePatrolCar" Width="1.5" PointX="0.875" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneDB.CapstoneUser" Width="1.5" PointX="8.5" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="CapstoneDB.AddressId" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneDB.CapstonePatrol_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneDB.CapstonePatrol_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneDB.EmployeeId" ManuallyRouted="false" />
+        <AssociationConnector Association="CapstoneDB.PatrolCar" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

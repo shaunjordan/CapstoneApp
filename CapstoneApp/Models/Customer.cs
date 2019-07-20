@@ -8,5 +8,6 @@ namespace CapstoneApp.Models
 {
     public class Customer
     {
+
     }
 }

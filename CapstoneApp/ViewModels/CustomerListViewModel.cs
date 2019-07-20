@@ -18,5 +18,7 @@ namespace CapstoneApp.ViewModels
         }
 
         public ObservableCollection<Customer> Customers { get; set; }
+                
+        
     }
 }
